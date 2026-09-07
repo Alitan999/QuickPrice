@@ -34,7 +34,7 @@ Designed as a **Hybrid Single Page Application (SPA)**, it runs a high-performan
 
 *   🔄 **Real-Time Sync:** Data updates instantly across all devices connected to the same store using Firebase Firestore onSnapshot listeners.
 *   📷 **Smart Barcode Scanning:** Integrated `html5-qrcode` engine leveraging native Android camera permissions for rapid 1D and 2D code detection.
-*   👥 **Team Synchronization:** Store catalogs are isolated and shared securely via unique 6-character access codes (`storeId`).
+*   👥 **Team Synchronization:** Store catalogs are isolated and shared securely via unique access codes (`storeId`).
 *   📦 **Full Inventory Control:** Simple CRUD interface to add, edit, or delete products and prices on the fly.
 *   🎨 **Modern UI/UX:** Glassmorphism design system, animated aurora backgrounds, and staggered micro-animations built with Tailwind CSS.
 
@@ -47,9 +47,9 @@ Quick Price follows a hybrid model:
 2.  **Frontend UI (HTML/JS/Tailwind):** Handles all business logic, UI rendering, and user interactions.
 3.  **BaaS (Firebase):** Manages authentication and real-time NoSQL data storage.
 
-### Data Structure (Firestore)
-*   **Users:** `artifacts/quickprice-alan/users/{uid}/profile/main` (Stores the linked `storeId`).
-*   **Inventory:** `artifacts/quickprice-alan/public/data/inventory_{storeId}/` (Documents contain `code`, `name`, `price`, `lastEditor`, `updatedAt`).
+### Data Model Overview
+*   **User Profiles:** Manages user roles and links each user account to their respective store identifier.
+*   **Store Inventory:** Real-time NoSQL documents storing product details including item codes, descriptions, pricing, metadata tracking on the last editor, and timestamps.
 
 ---
 
@@ -71,7 +71,7 @@ Quick Price follows a hybrid model:
 
 1. **Authentication:** Log in or register a new account.
 2. **Store Setup:** 
-   * *Owners:* Generate a new store code (e.g., `A1B2C3`).
+   * *Owners:* Generate a new store code.
    * *Employees:* Enter the owner's code to join the store.
 3. **Checking Prices:** Use the search bar to type a product name, or tap the barcode icon to scan an item using the device camera.
 4. **Managing Inventory:** Navigate to the Inventory tab to add new items (manually or via scanner), edit existing prices, or delete outdated stock.
