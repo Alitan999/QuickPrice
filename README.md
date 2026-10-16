@@ -58,7 +58,7 @@ Quick Price follows a hybrid model:
 > **Note:** Drag and drop screenshots of the app directly into the GitHub editor to replace these placeholders!
 
 <div align="center">
-  <img src="URL_SCREENSHOT_1" alt="Login Screen" width="220" />
+  <img src="/QUICK PRICE SCREENSHOTS/Login.jpg" alt="Login Screen" width="220" />
   &nbsp;&nbsp;&nbsp;
   <img src="URL_SCREENSHOT_2" alt="Scanner Screen" width="220" />
   &nbsp;&nbsp;&nbsp;
