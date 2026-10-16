@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Arrastra tu logo a GitHub y reemplaza este enlace -->
-  <img src="URL_DE_TU_LOGO_AQUI" alt="Quick Price Logo" width="120" />
+  <img src="/logo.png" alt="Quick Price Logo" width="120" />
 
   <h1>⚡ Quick Price</h1>
   <p><b>Agile & Collaborative Hybrid Inventory Management</b></p>
