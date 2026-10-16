@@ -60,9 +60,9 @@ Quick Price follows a hybrid model:
 <div align="center">
   <img src="/QUICK PRICE SCREENSHOTS/Login.jpg" alt="Login Screen" width="220" />
   &nbsp;&nbsp;&nbsp;
-  <img src="URL_SCREENSHOT_2" alt="Scanner Screen" width="220" />
+  <img src="/QUICK PRICE SCREENSHOTS/Scanner.jpg" alt="Scanner Screen" width="220" />
   &nbsp;&nbsp;&nbsp;
-  <img src="URL_SCREENSHOT_3" alt="Inventory Screen" width="220" />
+  <img src="/QUICK PRICE SCREENSHOTS/Inventory.jpg" alt="Inventory Screen" width="220" />
 </div>
 
 ---
